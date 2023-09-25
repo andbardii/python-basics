@@ -31,10 +31,10 @@
 ##### LEZIONE 004 ##### 
 #* TIPI DI DATO IN PYTHON
 
-# string: x = "ciao"
+# str: x = "ciao"
 # int: x = 10
 # float: x = 20.5
-# boolean: x = True
+# bool: x = True
 
 # list: x = ["roma", "milano", "napoli"]
 # tuple: x = ("roma", "milano", "napoli")
@@ -51,3 +51,31 @@
 # x = int("5")
 # y = 5
 # print(x + y) --> 10
+
+##### ESERCIZI ##### 
+
+# numero = 5
+# nome = "Mario"
+# pi = 3.14
+# vero_o_falso = True
+# numero_come_stringa = str(numero)
+# pi_come_intero = int(pi)
+# vero_o_falso_come_striga = str(vero_o_falso)
+
+# x = 10
+# y = 10
+# z = "30"
+# print(x + y + int(z)) --> 50
+
+# strfirst = "Hello"
+# secondfirst = "World"
+# print(strfirst + " " + secondfirst ) --> Hello World
+
+# variabile_bool = True
+# print(type(variabile_bool) == False) --> False
+# print(type(variabile_bool) == bool) --> True
+
+# lista = [1,2,3,4,5,6,7,8,9]
+# print(type(lista) == list) --> True
+
+##### LEZIONE 006 ##### 
