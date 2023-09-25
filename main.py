@@ -6,7 +6,7 @@
 
 ##### LEZIONE 002 ##### 
 # messaggio = input("inserisci il tuo nome:")
-# print("Ciao " + messaggio + "!")
+# print("Ciao " + messaggio + "!") --> Ciao Andrea!
 
 #* FARE ATTENZIONE ALL'INDENTAZIONE DEL CODICE
 #* NON SI USANO ;
@@ -44,3 +44,12 @@
 
 #* MENO TIPIZZAZIONE RISPETTO AD ALTRI LINGUAGGI
 #* STAMPA IL TIPO DI DATO DELLA VARIABILE print(type(x))
+
+##### LEZIONE 005 ##### 
+#* CASTING TRA TIPI DI DATI
+
+# x = int("5")
+# y = 5
+# print(x + y) --> 10
+
+##### LEZIONE 006 ##### 
