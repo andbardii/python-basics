@@ -18,4 +18,12 @@
 
 ##### LEZIONE 003 ##### 
 #* NON SI PUO DICHIARARE UNA VARIABILE SENZA SPECIFICARE IL SUO VALORE
+#* ATTENZIONE AL CASE SENSITIVE, NON CREARE NOMI CHE USINO - O CHE INIZINO CON NUMERI O SPAZI
 
+# x, y, z = 10, 20, 30
+# print(x + y + z)
+# w = x + y + z
+
+# citta = ["roma", "milano", "napoli"]
+# a, b, c = citta
+# print(a , b , c)
