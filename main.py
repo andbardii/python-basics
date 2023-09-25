@@ -27,3 +27,20 @@
 # citta = ["roma", "milano", "napoli"]
 # a, b, c = citta
 # print(a , b , c)
+
+##### LEZIONE 004 ##### 
+#* TIPI DI DATO IN PYTHON
+
+# string: x = "ciao"
+# int: x = 10
+# float: x = 20.5
+# boolean: x = True
+
+# list: x = ["roma", "milano", "napoli"]
+# tuple: x = ("roma", "milano", "napoli")
+# range: x = range(6)
+# dict: x = {"nome":"Andrea", "age":20}
+# set: x = {"roma", "milano", "napoli}
+
+#* MENO TIPIZZAZIONE RISPETTO AD ALTRI LINGUAGGI
+#* STAMPA IL TIPO DI DATO DELLA VARIABILE print(type(x))
