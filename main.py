@@ -114,4 +114,14 @@
 # ex = "Dall\'altra parte"
 # print(ex)
 
-#####? LEZIONE 002 ##### 
+#####? ESERCIZIO 002 ##### 
+# nome = "Andrea"
+# nome.upper()
+# print(nome) --> RIMANE Andrea
+
+# cognome = "Bardi"
+# print(cognome.replace("a", "e")) --> Berdi
+
+# indirizzo = "Via Massarenti"
+# print(indirizzo.split()) --> ['Via', 'Massarenti']
+# print(cognome[int(len(cognome)) - 1]) --> i
