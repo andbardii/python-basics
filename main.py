@@ -1,10 +1,10 @@
-##### LEZIONE 001 ##### 
 # print("Here my first line of python!")
 
+#####! LEZIONE 001 ##### 
 #* CREARE ENVIRONMENT SEPARATI PER I PROGETTI 
 # print("python3 -m venv NOME_VIRTUAL_ENVIRONMENT")
 
-##### LEZIONE 002 ##### 
+#####! LEZIONE 002 ##### 
 # messaggio = input("inserisci il tuo nome:")
 # print("Ciao " + messaggio + "!") --> Ciao Andrea!
 
@@ -16,7 +16,7 @@
 # else:
 #     print("maggiore")
 
-##### LEZIONE 003 ##### 
+#####! LEZIONE 003 ##### 
 #* NON SI PUO DICHIARARE UNA VARIABILE SENZA SPECIFICARE IL SUO VALORE
 #* ATTENZIONE AL CASE SENSITIVE, NON CREARE NOMI CHE USINO - O CHE INIZINO CON NUMERI O SPAZI
 
@@ -28,7 +28,7 @@
 # a, b, c = citta
 # print(a , b , c)
 
-##### LEZIONE 004 ##### 
+#####! LEZIONE 004 ##### 
 #* TIPI DI DATO IN PYTHON
 
 # str: x = "ciao"
@@ -45,14 +45,14 @@
 #* MENO TIPIZZAZIONE RISPETTO AD ALTRI LINGUAGGI
 #* STAMPA IL TIPO DI DATO DELLA VARIABILE print(type(x))
 
-##### LEZIONE 005 ##### 
+#####! LEZIONE 005 ##### 
 #* CASTING TRA TIPI DI DATI
 
 # x = int("5")
 # y = 5
 # print(x + y) --> 10
 
-##### ESERCIZI ##### 
+#####? ESERCIZIO 001 ##### 
 
 # numero = 5
 # nome = "Mario"
@@ -78,4 +78,40 @@
 # lista = [1,2,3,4,5,6,7,8,9]
 # print(type(lista) == list) --> True
 
-##### LEZIONE 006 ##### 
+#####! LEZIONE 006 ##### 
+#* PER CREARE STRINGHE SU PIU RIGHE DOBBIAMO USARE """ TESTO """
+#* LE STRINGHE VENGONO TRATTATE COME ARRAY
+
+# x = "Ciao"
+# y = 20
+# print(x[0]) --> C
+
+#* POSSIAMO CONTROLLARE LA LENGTH CON len(x)
+# print(len(x)) --> 4
+
+#* UNA PRIMA FORMA DI CICLO IN PYTHON, IL for in
+# for char in x:
+#     print(char) --> C   i   a   o
+
+#* POSSIAMO FILTRARE PARTI DELLA STRINGA CON [position:position]
+#* E POSSIBILE UTILIZZARE INDICI NEGATIVI CHE CONTANO AL CONTRARIO
+# print(x[:2]) --> Ci
+# print(x[2:4]) --> ao
+# print(x[-2:]) --> ao
+
+#* ALCUNI METODI PER LE STRINGHE
+
+# x.upper() --> TESTO MAIUSCOLO
+# x.strip() --> TOGLIE GLI SPAZI
+# x.lower()  --> TESTO MAIUSCOLO
+# x.replace("a", "A")  --> SOSTITUISCE NEL TESTO
+
+# saluti = x + " mi chiamo Andrea ed ho {} anni."
+# print(saluti.format(y)) --> Ciao mi chiamo Andrea ed ho 20 anni.
+#* CON FORMAT POSSIAMO GESTIRE LE STRINGHE ANCHE INSERENDO PIU {}
+
+#* ESCAPE DEI CARATTERI \
+# ex = "Dall\'altra parte"
+# print(ex)
+
+#####? LEZIONE 002 ##### 
