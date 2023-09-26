@@ -35,3 +35,15 @@
 # indirizzo = "Via Massarenti"
 # print(indirizzo.split()) --> ['Via', 'Massarenti']
 # print(cognome[int(len(cognome)) - 1]) --> i
+
+#####? ESERCIZIO 003 ##### 
+# x = 30
+# y = 50
+# z = 20
+# risultato = pow((x + y), 2) - z
+# print(risultato) --> 6380
+# eta = "25"
+# ris = eta * 3
+# print(ris) --> 252525
+# risultato = int(eta) * 3
+# print(risultato) --> 75

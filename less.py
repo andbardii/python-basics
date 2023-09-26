@@ -115,6 +115,7 @@
 # MENO - 
 # PER *
 # DIVISO /
+# MODULO %
 # FLOAT DIVISION // (arrotonda per difetto)
 # POTENZA ** 
 
