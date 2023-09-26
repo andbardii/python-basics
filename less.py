@@ -1,6 +1,6 @@
-# print("Here my first line of python!")
 
 #####! LEZIONE 001 ##### 
+# print("Here my first line of python!")
 #* CREARE ENVIRONMENT SEPARATI PER I PROGETTI 
 # print("python3 -m venv NOME_VIRTUAL_ENVIRONMENT")
 
@@ -52,32 +52,6 @@
 # y = 5
 # print(x + y) --> 10
 
-#####? ESERCIZIO 001 ##### 
-
-# numero = 5
-# nome = "Mario"
-# pi = 3.14
-# vero_o_falso = True
-# numero_come_stringa = str(numero)
-# pi_come_intero = int(pi)
-# vero_o_falso_come_striga = str(vero_o_falso)
-
-# x = 10
-# y = 10
-# z = "30"
-# print(x + y + int(z)) --> 50
-
-# strfirst = "Hello"
-# secondfirst = "World"
-# print(strfirst + " " + secondfirst ) --> Hello World
-
-# variabile_bool = True
-# print(type(variabile_bool) == False) --> False
-# print(type(variabile_bool) == bool) --> True
-
-# lista = [1,2,3,4,5,6,7,8,9]
-# print(type(lista) == list) --> True
-
 #####! LEZIONE 006 ##### 
 #* PER CREARE STRINGHE SU PIU RIGHE DOBBIAMO USARE """ TESTO """
 #* LE STRINGHE VENGONO TRATTATE COME ARRAY
@@ -114,14 +88,22 @@
 # ex = "Dall\'altra parte"
 # print(ex)
 
-#####? ESERCIZIO 002 ##### 
-# nome = "Andrea"
-# nome.upper()
-# print(nome) --> RIMANE Andrea
+#####! LEZIONE 007 ##### 
+#* VALORI BOOLEANI (TRUE OR FALSE) DA INDICARE SEMPRE CON LE INIZIALI MAIUSCOLE
 
-# cognome = "Bardi"
-# print(cognome.replace("a", "e")) --> Berdi
+#* VALORI CHE RESTITUISCONO SEMPRE FALSE
+# bool (False)
+# print(bool(None)) --> False
+# print(bool(0)) --> False
+# print(bool("")) --> False
+# print(bool("")) --> False
+# print(bool(())) --> False
+# print(bool([])) --> False
+# print(bool({})) --> False
 
-# indirizzo = "Via Massarenti"
-# print(indirizzo.split()) --> ['Via', 'Massarenti']
-# print(cognome[int(len(cognome)) - 1]) --> i
+# x = 0
+# print(bool(x)) --> False
+# print(x == 0) --> True
+
+# y = 1
+# print(bool(y)) --> True
