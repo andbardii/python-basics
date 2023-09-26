@@ -132,7 +132,7 @@
 #* GESTIONE DEGLI IF ELSE
 #* SI POSSONO USARE TUTTI GLI OPERATORI DI COMPARAZIONE == , != , >= , ETC
 
-x = 8
+# x = 8
 # if x == 10:
 #     print("uguale a 10")
 #     print("restart")
@@ -154,6 +154,9 @@ x = 8
 # if 5 == x or x == 8:
 #     print("almeno una condizione è vera")
 
+# if "a" in "Andrea":
+#     print("a è compresa nella parola Andrea")
+
 #* FORMULA PER INDICARE IL CONTRARIO DI QUANTO EFFETTIVAMENTE USCITO
 # if not(x > 10):
 #     print("minore di 10")
@@ -163,16 +166,16 @@ x = 8
 
 # print("maggiore di 5") if x > 5 else print("minore di 5")
 
-#* IF ANNIDATA
-if x % 2 == 0:
-    if x < 10:
-        print("numero pari minore di 10")
-    else: 
-        if x % 10 == 0:
-            print("numero pari maggiore e divisibile per 10 ")
-        else: 
-            print("numero pari maggiore e ma non divisibile per 10")
-else: 
-    print("numero dispari")
+#* IF ANNIDATI
+# if x % 2 == 0:
+#     if x < 10:
+#         print("numero pari minore di 10")
+#     else: 
+#         if x % 10 == 0:
+#             print("numero pari maggiore e divisibile per 10 ")
+#         else: 
+#             print("numero pari maggiore e ma non divisibile per 10")
+# else: 
+#     print("numero dispari")
 
 #####! LEZIONE 010 ##### 
