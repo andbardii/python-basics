@@ -107,3 +107,24 @@
 
 # y = 1
 # print(bool(y)) --> True
+
+#####! LEZIONE 008 ##### 
+#* OPEAZIONI ARITMETICHE (ATTENZIONE ALLA PRECEDENZA DEGLI OPERATORI)
+
+# PIU + 
+# MENO - 
+# PER *
+# DIVISO /
+# FLOAT DIVISION // (arrotonda per difetto)
+# POTENZA ** 
+
+#* E POSSIBILE UTILIZZARE LE ASSEGAZIOI PARTICOLARI *=, +=, ETC (disponibile con tutti gli operatori)
+
+#* ALCUNI METODI UTILI PER I NUMERI
+# print(min(10, 30, 20)) --> 10
+# print(max(10, 30, 20)) --> 30
+# print(abs(-5)) --> 5
+# print(pow(5,2)) --> 25
+#* ALTRI METODI UTILI SI TROVANO NEL MODULO MATH DA IMPORTARE
+
+#####! LEZIONE 009 ##### 
