@@ -129,3 +129,50 @@
 #* ALTRI METODI UTILI SI TROVANO NEL MODULO MATH DA IMPORTARE
 
 #####! LEZIONE 009 ##### 
+#* GESTIONE DEGLI IF ELSE
+#* SI POSSONO USARE TUTTI GLI OPERATORI DI COMPARAZIONE == , != , >= , ETC
+
+x = 8
+# if x == 10:
+#     print("uguale a 10")
+#     print("restart")
+# elif x < 10: 
+#* IN PYTHON NON SI SCRIVE else if MA elif
+#     print("minore di 10")
+#     print("restart")
+# else:
+#     print("maggiore di 10")
+#     print("restart")
+
+#* FORMULA PER INDICARE "COMPROSEO IN UN RANGE" NON UTILIZZABILE IN MOLTI LINGUAGGI
+# if 5 <= x <= 10:
+#     print("compreso nel range")
+
+# if 5 <= x and x == 8:
+#     print("entreambe le condizione sono vere")
+
+# if 5 == x or x == 8:
+#     print("almeno una condizione è vera")
+
+#* FORMULA PER INDICARE IL CONTRARIO DI QUANTO EFFETTIVAMENTE USCITO
+# if not(x > 10):
+#     print("minore di 10")
+
+#* SCORCIATOIE PER SCRIVERE GLI IF
+# if x > 5: print("maggiore di 5")
+
+# print("maggiore di 5") if x > 5 else print("minore di 5")
+
+#* IF ANNIDATA
+if x % 2 == 0:
+    if x < 10:
+        print("numero pari minore di 10")
+    else: 
+        if x % 10 == 0:
+            print("numero pari maggiore e divisibile per 10 ")
+        else: 
+            print("numero pari maggiore e ma non divisibile per 10")
+else: 
+    print("numero dispari")
+
+#####! LEZIONE 010 ##### 
