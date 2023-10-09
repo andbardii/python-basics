@@ -177,5 +177,3 @@
 #             print("numero pari maggiore e ma non divisibile per 10")
 # else: 
 #     print("numero dispari")
-
-#####! LEZIONE 010 ##### 
