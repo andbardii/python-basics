@@ -94,3 +94,14 @@
 #         print("lettera OK")
 #     else:
 #         print("lettera sbagliata")
+
+#####? ESERCIZIO 005 ##### 
+# while True:
+#     numero = int(input("Inserisci un numero"))
+#     if numero %2 == 0:
+#         break
+
+# n = 1 
+# while numero <= 100:
+#     print(numero)
+#     n += 1
