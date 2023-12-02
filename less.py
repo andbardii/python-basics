@@ -144,7 +144,7 @@
 #     print("maggiore di 10")
 #     print("restart")
 
-#* FORMULA PER INDICARE "COMPROSEO IN UN RANGE" NON UTILIZZABILE IN MOLTI LINGUAGGI
+#* FORMULA PER INDICARE "COMPRESO IN UN RANGE" (NON UTILIZZABILE IN MOLTI LINGUAGGI)
 # if 5 <= x <= 10:
 #     print("compreso nel range")
 
